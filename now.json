@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "name": "express-test",
+  "regions": ["bru1"],
+  "builds": [
+    {
+      "src": "src/**/*.rs",
+      "use": "@now/rust"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/src/$1"
+    }
+  ]
+}
