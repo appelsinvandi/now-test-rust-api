@@ -1,4 +1,4 @@
-use http::{header, Method, Request, Response, StatusCode};
+use http::{header, Request, Response, StatusCode};
 
 fn handler(request: Request<()>) -> http::Result<Response<String>> {
 	let response = Response::builder()
