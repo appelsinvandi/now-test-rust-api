@@ -2,7 +2,6 @@
 name = "now_test_rust_api"
 version = "1.0.0"
 edition = "2018"
-authors = ["Morten <ding@dong.com>"]
 
 [dependencies]
 http = "0.1"
