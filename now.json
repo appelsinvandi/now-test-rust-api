@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "express-test",
+  "name": "now-test-rust-api",
   "regions": ["bru1"],
   "builds": [
     {
